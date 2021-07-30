@@ -4,11 +4,11 @@ return(
 ) 
 }
 
-const NameSite = () => {
+const NameSite = (props) => {
     return(
         <div>
 <Welcome />
-<h2>Ayda Bastami</h2>
+<h2 onClick={props.Handler}>{props.firstName} Bastami </h2>
         </div>
     )
 }
