@@ -11,7 +11,8 @@ const ClickME = () => {
         <div className="jumbotron">
           <h3>you clicked me {num} time!</h3>
         <button onClick={()=>setNum(num+1)}>Click ME</button> <br></br>
-        <Link to="/">Go to Home page</Link>  
+        <Link to="/">Go to Home page</Link>
+          
         </div>
         
         </>
